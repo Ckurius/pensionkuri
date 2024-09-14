@@ -42,8 +42,8 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-white text-violet-500 p-4 sm:p-6 shadow-xl rounded">
-      <div className="container mx-auto text-center shadow-2xl roundend">
+    <footer className=" bg-white text-violet-500 p-4 sm:p-6 shadow-xl border rounded-2xl">
+      <div className="container justify-center flex-wrap flex-row flex-shrink mx-auto text-center shadow-2xl border-2xl  border-black roundend-2xl">
         <p className="text-xs sm:text-sm">
           &copy; 2024 Pension Kuri. Alle Rechte vorbehalten.
         </p>
@@ -59,15 +59,16 @@ function Footer() {
           <h2 className="text-lg sm:text-xl font-semibold mb-2">
             Unsere Bewertungen
           </h2>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center text-center gap-4">
             {/* Google Bewertungen Widget von Elfsight */}
-            <div
-              className="bg-white text-gray-800 rounded-lg p-4 flex flex-col items-center justify-center shadow-md w-64 border border-gray-200"
-              role="button"
-              tabIndex={0}
-            >
+            <div className="flex flex-col  border-2 justify-self-center flex-shrink justify-center text-center shadow-xl rounded-xl space-y-2">
               <div
-                className="elfsight-app-2c73ae66-8a71-4f09-9355-4c7ad3d63381"
+                className=" rounded-lg justify-center text-center shadow-md "
+                role="button"
+                tabIndex={0}
+              ></div>
+              <div
+                className="elfsight-app-2c73ae66-8a71-4f09-9355-4c7ad3d63381  justify-center text-center"
                 data-elfsight-app-lazy
               ></div>
             </div>
