@@ -3,14 +3,14 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="container  text-center mx-auto p-4 sm:p-6 ">
+    <div className="container  text-center mx-auto my-auto p-4 sm:p-6 ">
       {/* Hero Section */}
-      <div className="relative flex h-64 sm:h-96 overflow-hidden rounded-2xl mb-6 p-4  flex-col justify-center items-center shadow-xl">
+      <div className="relative flex max-h-full max-w-full sm:h-96 overflow-hidden rounded-2xl mb-6 p-4  flex-col justify-center items-center shadow-xl">
         <div>
           <img
             src="../public/Pension-Kuri.jpeg"
             alt="Pension Kuri in Herbolzheim"
-            className="max-w-full max-h-full object-contain border-sky-300 border-4 rounded-2xl"
+            className="max-w-full max-h-full object-contain border-sky-300 border-4 mx-auto rounded-2xl"
           />
         </div>
       </div>

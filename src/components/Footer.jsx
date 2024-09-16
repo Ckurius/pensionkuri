@@ -76,7 +76,7 @@ function Footer() {
             {/* TripAdvisor Bewertung mit Sterneanzeige und anklickbarem Bereich */}
             <div
               id="tripadvisor-widget"
-              className="bg-white text-gray-800 rounded-lg p-4 flex flex-col items-center justify-center shadow-md w-64 border border-gray-200 cursor-pointer"
+              className="bg-white text-gray-800 p-4 flex flex-col items-center justify-center shadow-xl rounded-xl w-64 border-2 border-gray-200 cursor-pointer"
               onClick={openTripAdvisor}
               role="button"
               tabIndex={0}
@@ -107,7 +107,7 @@ function Footer() {
             {/* HolidayCheck Bewertung passend integriert */}
             <div
               id="holidaycheck-widget"
-              className=" bg-white text-gray-800 rounded-lg p-4 flex flex-col items-center justify-center shadow-md w-64 border border-gray-200"
+              className=" bg-white text-gray-800  p-4 flex flex-col items-center justify-center shadow-xl rounded-xl w-64 border-2  border-gray-200"
               role="button"
               tabIndex={0}
             >
